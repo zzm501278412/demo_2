@@ -1,0 +1,58 @@
+﻿common文件夹 ---放置公共文件
+	base.py -- 对selenium做二次封装
+		open_browser  ---  打开浏览器
+		open_url   ---输入地址
+		find_element  ---定位单个元素
+		find_elements  ---定位一组元素
+		click  ---点击元素
+		send_keys  ---输入内容
+		close  ---关闭浏览器
+		is_text_in_elemnt   --- 判断文本是否存在于元素中
+		keyboard_envent_enter  ----键盘回车事件
+                backspace----键盘backspace事件			
+	
+page文件夹  ---存放页面的定位和对应的操作
+
+
+class LoginPage(Base): # 继承Base类
+    """封装表现层--制作定位器"""
+    username_loc = ("name","username")# 用户名输入框
+    password_loc = ("name","password")# 密码输入框
+    remember_loc = ("id","remember")# 记住密码
+    submit_loc = ("class name","us_Submit")# 立即登录按钮
+    question_loc = ("link text","密码问题")# 找回密码--密码问题
+    email_loc = ("link text","邮件")# 找回密码--邮件
+    message_loc = ("link text","短信验证")# 找回密码--短信验证
+
+    register_loc = ("css selector","a[href='user.php?act=register']")# 立即注册按钮
+    result_loc = ("class name", "f4_b")  # 登录成功后的结果
+
+    homepage_loc = ("link text", "首页")  # 进入首页链接
+
+     """操作层""":
+	input_username---输入用户名
+	input_password----输入密码
+	remember_password---点击记住密码
+	submit----点击登录
+	click_homepage---点击首页链接
+	is_successed----判断是否登录成功
+	
+
+
+
+data文件夹  ---存放Excel表格
+	login_data.xls  --- 登录的账号信息
+	shoppingcar_page.xls  ---修改购物车商品数量
+	shopcar_data.xls  ---购买商品数量
+	
+
+report文件夹 ---存放测试报告
+
+script文件夹  ---存测试用例
+	Addgoodstest.py  --  添加商品
+	Deletegoodstest.py  --删除商品
+	Updategoodstest.py  --修改商品信息
+	ShopCartest	---完整流程(增删查改)	
+
+run_case.py  ---生成用户登录测试报告
+

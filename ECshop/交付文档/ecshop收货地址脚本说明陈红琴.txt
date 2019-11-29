@@ -1,0 +1,86 @@
+common文件夹 ---放置公共文件
+	base.py -- 对selenium做二次封装
+		open_browser  ---  打开浏览器
+		open_url   ---输入地址
+		find_element  ---定位单个元素
+		find_elements  ---定位一组元素
+		click  ---点击元素
+		send_keys  ---输入内容
+		close  ---关闭浏览器
+		is_text_in_elemnt   --- 判断文本是否存在于元素中
+		drop_down  --- 下拉框随机选择索引
+			
+	operation_excel.py   ---通过pandas读取Excel表格
+		get_data_info   --- 将读取的数据转化成 列表内嵌套字典 格式
+
+page文件夹  ---存放页面的定位和对应的操作
+	address_page.py  -- 个人中心--收货地址的元素定位和对元素的操作,删除和增加
+		eceivingAddr  --- 点击收货地址
+		consignee --- 输入收货人
+		mobile   ----  输入电话
+		zipcode --- 输入邮政编号
+		email  -- 输入电子邮箱地址
+		address  --- 输入详细地址
+		tel  --   输入手机
+		province  --- 下拉框选择市
+		city  --- 下拉框选择省
+		district  --- 下拉框选择区
+		newEceivingAddr  --- 点击新增收货地址
+		accept_delect  --- 确认删除
+		dismiss_delect  --- 取消删除
+		amend  --- 确认修改
+		
+	user_address_page.py  -- 个人中心--收货地址的元素定位和对元素的操作,修改
+		eceivingAddr  --- 点击收货地址
+		send_keys_consignee  --- 输入需要修改的收货人
+		send_keys_address   --- 输入需要修改的详细地址
+		send_keys_zipcode   ---输入修改的邮政编号
+		send_keys_mobile  --- 输入需要修改的手机
+		click_submit  --- 确认修改
+
+	longin_page.py  --登录界面---元素定位和对元素的操作
+		input_username  --- 输入账号
+		input_password --- 输入密码
+		click_remember --- 记住密码
+		click_submit --- 点击登录
+		click_password  --- 问题密码
+		click_email ---邮件
+		click_massage  ---短信验证
+		click_homepage ---首页
+		click_register  --- 首页
+		is_successd  --- 判断是否登录成功
+			
+	register_page.py ---用户注册---元素定位和对元素的操作
+		click_register   ---登录页面-立即注册
+		send_keys_username  ---输入用户名
+		send_keys_email  ---输入邮箱
+		send_keys_password  ---输入密码
+		send_keys_confirm_password  ---输入确认密码
+		send_keys_qq  ---输入qq
+		send_keys_work_tel  --- 输入公司电话
+		send_keys_family_tel  ---输入家庭电话
+		send_keys_tel  --- 输入手机
+		sel_question   ---密码问题下拉框
+		send_keys_passwd_answer   ---输入密码问题答案
+		click_Submit  --- 点击立即注册
+		click_existing_account   ---我已有账号,我要登录
+		click_forget_password   ---您忘记密码了吗
+
+data文件夹  ---存放Excel表格
+	adderss_data.xlsx  --- 添加收货地址数据
+	amend_data.xlsx  ---修改地址数据
+	longin_data.xls  ---登录用户数据
+	register_data.xls  --- 注册用户数据
+
+report文件夹 ---存放测试报告
+
+script文件夹  ---存测试用例
+	test_adderss.py  --  新增收货地址
+	test_amend.py  --修改收货地址
+	test_delete.py  --删除收货地址
+	test_register.py  --注册用户
+	text_login.py   --用户登录
+
+run_address_case.py   ---生成测试报告
+run_case.py  ---生成用户登录测试报告
+
