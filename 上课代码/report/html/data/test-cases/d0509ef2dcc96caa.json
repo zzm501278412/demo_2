@@ -1,0 +1,56 @@
+{
+  "uid" : "d0509ef2dcc96caa",
+  "name" : "test_login[10086]",
+  "fullName" : "script.test_paramestrize#test_login",
+  "historyId" : "efcad96a801d9add80f5535f878e1122",
+  "time" : {
+    "start" : 1574227812109,
+    "stop" : 1574227812109,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_paramestrize"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E0IFP26"
+  }, {
+    "name" : "thread",
+    "value" : "13012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_paramestrize"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "phonenum",
+    "value" : "'10086'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0509ef2dcc96caa.json",
+  "parameterValues" : [ "'10086'" ]
+}

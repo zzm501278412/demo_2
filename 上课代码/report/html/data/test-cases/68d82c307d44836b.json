@@ -1,0 +1,70 @@
+{
+  "uid" : "68d82c307d44836b",
+  "name" : "test_b",
+  "fullName" : "script.test_order#test_b",
+  "historyId" : "bb16357249b0a497a724cdf84f616334",
+  "time" : {
+    "start" : 1574227812096,
+    "stop" : 1574227812096,
+    "duration" : 0
+  },
+  "description" : "第二条",
+  "descriptionHtml" : "<p>第二条</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "@pytest.mark.run(order=4)\n    def test_b():\n        \"\"\"第二条\"\"\"\n        print(\"------------------->test_b\")\n>       assert 0\nE       assert 0\n\nscript\\test_order.py:24: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E0IFP26"
+  }, {
+    "name" : "thread",
+    "value" : "13012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1227a803a3e0d9aa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0",
+      "time" : {
+        "start" : 1574227812052,
+        "stop" : 1574227812052,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "68d82c307d44836b.json",
+  "parameterValues" : [ ]
+}

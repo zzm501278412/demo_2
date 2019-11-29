@@ -1,0 +1,68 @@
+{
+  "uid" : "a8a73ddee7896bc8",
+  "name" : "test_3",
+  "fullName" : "script.test_xafil#test_3",
+  "historyId" : "68c66588e220eebed3843255e86c303b",
+  "time" : {
+    "start" : 1574227812356,
+    "stop" : 1574227812356,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "@pytest.mark.xfail(False,reason=\"\")\n    def test_3():\n        print(\"预期成功,结果失败\")\n>       assert False\nE       assert False\n\nscript\\test_xafil.py:26: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_xafil"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E0IFP26"
+  }, {
+    "name" : "thread",
+    "value" : "13012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_xafil"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "787ab4505f45759",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1574227812347,
+        "stop" : 1574227812348,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a8a73ddee7896bc8.json",
+  "parameterValues" : [ ]
+}

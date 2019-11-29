@@ -1,0 +1,53 @@
+{
+  "uid" : "8fad435be457cb68",
+  "name" : "test_4",
+  "fullName" : "script.test_xafil#test_4",
+  "historyId" : "a267a123262d73aff53dd5a233e9db4e",
+  "time" : {
+    "start" : 1574227812364,
+    "stop" : 1574227812364,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_xafil"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E0IFP26"
+  }, {
+    "name" : "thread",
+    "value" : "13012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_xafil"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8fad435be457cb68.json",
+  "parameterValues" : [ ]
+}

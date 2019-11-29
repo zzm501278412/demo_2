@@ -1,0 +1,68 @@
+{
+  "uid" : "e1e33c86db23ac3",
+  "name" : "test_2",
+  "fullName" : "script.test_xafil#test_2",
+  "historyId" : "5d2e0253432cd24b868abba445ce02bc",
+  "time" : {
+    "start" : 1574227812343,
+    "stop" : 1574227812343,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "Failed: [XPASS(strict)] condition: True",
+  "statusTrace" : "[XPASS(strict)] condition: True",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_xafil"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E0IFP26"
+  }, {
+    "name" : "thread",
+    "value" : "13012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_xafil"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2c842f588da5d92b",
+      "status" : "failed",
+      "statusDetails" : "Failed: [XPASS(strict)] condition: True",
+      "time" : {
+        "start" : 1574227812337,
+        "stop" : 1574227812338,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e1e33c86db23ac3.json",
+  "parameterValues" : [ ]
+}

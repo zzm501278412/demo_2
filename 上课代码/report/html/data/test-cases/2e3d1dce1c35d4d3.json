@@ -1,0 +1,68 @@
+{
+  "uid" : "2e3d1dce1c35d4d3",
+  "name" : "test_b",
+  "fullName" : "script.test_pytest入门#test_b",
+  "historyId" : "2dcfdae0af838e02d3f58934ad11232d",
+  "time" : {
+    "start" : 1574227812202,
+    "stop" : 1574227812202,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "def test_b():\n        print(\"------------------->test_b\")\n>       assert 0\nE       assert 0\n\nscript\\test_pytest入门.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest入门"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E0IFP26"
+  }, {
+    "name" : "thread",
+    "value" : "13012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_pytest入门"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fee5b8908bdb1516",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0",
+      "time" : {
+        "start" : 1574227812194,
+        "stop" : 1574227812194,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2e3d1dce1c35d4d3.json",
+  "parameterValues" : [ ]
+}

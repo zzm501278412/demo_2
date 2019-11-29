@@ -1,0 +1,62 @@
+{
+  "uid" : "153d13bb990fa264",
+  "name" : "test_login1[110-jerry-123456]",
+  "fullName" : "script.test_paramestrize#test_login1",
+  "historyId" : "5f498667e8615718913f82a0d6696e06",
+  "time" : {
+    "start" : 1574227812119,
+    "stop" : 1574227812120,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_paramestrize"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E0IFP26"
+  }, {
+    "name" : "thread",
+    "value" : "13012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_paramestrize"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'123456'"
+  }, {
+    "name" : "phonenum",
+    "value" : "'110'"
+  }, {
+    "name" : "username",
+    "value" : "'jerry'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "153d13bb990fa264.json",
+  "parameterValues" : [ "'123456'", "'110'", "'jerry'" ]
+}

@@ -1,0 +1,55 @@
+{
+  "uid" : "3faf1fc1e6cf8eef",
+  "name" : "test_login",
+  "fullName" : "script.test_skipif#test_login",
+  "historyId" : "48a7d10f36ce72afcf34d17c6a6d39a0",
+  "time" : {
+    "start" : 1574227812317,
+    "stop" : 1574227812317,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 不记住密码登陆",
+  "statusTrace" : "('script\\\\test_skipif.py', 12, 'Skipped: 不记住密码登陆')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "script"
+  }, {
+    "name" : "suite",
+    "value" : "test_skipif"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E0IFP26"
+  }, {
+    "name" : "thread",
+    "value" : "13012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "script.test_skipif"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3faf1fc1e6cf8eef.json",
+  "parameterValues" : [ ]
+}
